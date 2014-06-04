@@ -18,8 +18,8 @@ Jtmain.register(function(app, auth, database) {
 
     //We are adding a link to the main menu for all authenticated users
     Jtmain.menus.add({
-        title: 'jtmain example page',
-        link: 'jtmain example page',
+        title: 'JourneyTrax',
+        link: 'JourneyTrax',
         roles: ['authenticated'],
         menu: 'main'
     });
