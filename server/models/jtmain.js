@@ -20,7 +20,7 @@ var JourneySchema = new Schema({
         default: '',
         trim: true
     },
-    content: {
+    description: {
         type: String,
         default: '',
         trim: true
